@@ -7,7 +7,8 @@ class Song
   end
   
   def create
-    
+    @name = name
+    save
   end
 
   def save
