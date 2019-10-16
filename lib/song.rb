@@ -37,7 +37,7 @@ class Song
     song = self.new
     song.name = name
     @@all << song
-    @@all.find {|x| x.name == name}
+    self.find_by_name
     song
   end
 end
