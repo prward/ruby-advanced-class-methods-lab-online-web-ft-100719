@@ -39,6 +39,7 @@ class Song
     @@all << song
     @@all.find {|x| x.name == name}
     song
+  end
 end
 
 
